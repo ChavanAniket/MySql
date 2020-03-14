@@ -19,11 +19,10 @@
 }
 body{
     background: url(../images/background.jpg) no-repeat center center fixed;
-    background-color:white;
 }
 h1,h3,h2,h4{
     font-size: 3em;
-     font-family: 'Fredoka One',cursive;
+     font-family:sans-serif;
     text-align: left;
     color:black;
 }
@@ -62,7 +61,7 @@ h1,h3,h2,h4{
     }
     
     .second .col-md-7{
-        background-color: orange;
+        background: linear-gradient(to left,coral,orange);
         border-radius: 10px;
     }
     .second .col-md-5 img{
@@ -71,6 +70,9 @@ h1,h3,h2,h4{
         height: 280px;
         width: 330px;
         border-radius: 20px;
+    }
+    body{
+    background: url(../images/background.jpg) no-repeat center center fixed;
     }
 }
 
